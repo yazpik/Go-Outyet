@@ -9,7 +9,7 @@ services:
 
 before_install:
   - docker build -t adg1/outyet .
-  - docker run --publish 6060:8080 adg1/outyet --name outyet-test --rm outyet
+  - docker run --publish 6060:8080 adg1/outyet
   - docker ps -a
 
 
