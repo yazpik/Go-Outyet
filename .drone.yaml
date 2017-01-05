@@ -1,0 +1,7 @@
+---
+build:
+  image: golang:$$GO_VERSION
+  commands:
+    - go get
+    - go build
+    - go test
