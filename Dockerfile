@@ -6,6 +6,7 @@ ENV GOPATH /go
 ENV PATH /go/bin:$PATH
 WORKDIR /go
 EXPOSE 8888
+CMD ["go-wrapper", "run", "-version=1.5"]
 #FROM golang:onbuild
 #FROM blang/golang-alpine
 #EXPOSE 8888
