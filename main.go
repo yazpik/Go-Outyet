@@ -28,7 +28,7 @@ import (
 
 // Command-line flags.
 var (
-	httpAddr   = flag.String("http", ":8080", "Listen address")
+	httpAddr   = flag.String("http", ":8888", "Listen address")
 	pollPeriod = flag.Duration("poll", 5*time.Second, "Poll period")
 	version    = flag.String("version", "1.4", "Go version")
 )
