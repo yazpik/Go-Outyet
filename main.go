@@ -130,9 +130,6 @@ var tmpl = template.Must(template.New("tmpl").Parse(`
   <h2>Ready to sacrifice himself for the greater good.</h2>
  
     <p> <strong>KillerApp v1</strong></p>
-  </div>
-</div>
-
 </center></body></html>
 
 
