@@ -126,7 +126,7 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 var tmpl = template.Must(template.New("tmpl").Parse(`
 <!DOCTYPE html><html><body><center>
 <h2>Like a monkey, ready to be shot into space. Space monkey!! </h2>
-  <img src="https://cloud.githubusercontent.com/assets/19332777/17723435/b9222c66-63ff-11e6-8afc-70b0eb3ab685.jpg">
+  
   <h2>Ready to sacrifice himself for the greater good.</h2>
  
     <p> <strong>KillerApp v1</strong></p>
