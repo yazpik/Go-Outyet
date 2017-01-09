@@ -5,3 +5,11 @@ build:
     - go get
     - go build
     - go test
+
+notify:
+  slack:
+    webhook_url: https://hooks.slack.com/services/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
+    channel: dev
+    username: drone
+    template: >
+      build #{{ build.number }} finished with a {{ build.status }} status
