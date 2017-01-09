@@ -8,7 +8,7 @@ build:
 
 notify:
   slack:
-    webhook_url: https://hooks.slack.com/services/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
+    webhook_url: https://hooks.slack.com/services/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
     channel: general
     username: drone
     template: >
