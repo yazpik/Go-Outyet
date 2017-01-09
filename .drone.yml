@@ -1,10 +1,10 @@
----
 build:
   image: golang:$$GO_VERSION
   commands:
     - go get
     - go build
     - go test
+    
 notify:
   slack:
     webhook_url: 'https://hooks.slack.com/services/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'
