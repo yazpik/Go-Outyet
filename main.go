@@ -125,11 +125,10 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 // tmpl is the HTML template that drives the user interface.
 var tmpl = template.Must(template.New("tmpl").Parse(`
 <!DOCTYPE html><html><body><center>
-<div style="color: #35393B; margin-top: 100px; text-align: center; font-family: HelveticaNeue-Light, sans-serif;">
 <h2>Like a monkey, ready to be shot into space. Space monkey!! </h2>
   <img src="https://cloud.githubusercontent.com/assets/19332777/17723435/b9222c66-63ff-11e6-8afc-70b0eb3ab685.jpg">
   <h2>Ready to sacrifice himself for the greater good.</h2>
-  <div style="color: #838789;">
+ 
     <p> <strong>KillerApp v1</strong></p>
   </div>
 </div>
