@@ -5,11 +5,10 @@ build:
     - go get
     - go build
     - go test
-
 notify:
   slack:
     webhook_url: https://hooks.slack.com/services/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
     channel: '#general'
     username: FlyingPigs!
     template: >
-      oooink! build #{{ build.number }} finished with a oooink {{ build.status }} status
+      build #{{ build.number }} finished with a oooink {{ build.status }} status
